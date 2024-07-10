@@ -27,7 +27,12 @@ end
 
 
 save('evaluation_result.mat', 'ATE_POSE');
+for i=1:length(ATE_POSE)
+ATE_POSE{i}
+iter=size(ATE_POSE{i,2});
+for j=1:iter(2)
+ATE_POSE{i,2}{j}
+end
 
-ATE_POSE
-
+end
 toc

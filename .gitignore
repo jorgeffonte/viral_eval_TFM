@@ -5,6 +5,10 @@
 *.jpg
 *.jpeg
 *.pdf
+*.xls
+*.xlsx
+*.mat
+*.txt
 
 # Excepto los archivos llamados leica_pose.csv
 !leica_pose.csv
