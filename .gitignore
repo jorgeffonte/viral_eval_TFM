@@ -1,0 +1,10 @@
+# Ignorar todos los archivos .csv
+*.csv
+*.fig
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Excepto los archivos llamados leica_pose.csv
+!leica_pose.csv
